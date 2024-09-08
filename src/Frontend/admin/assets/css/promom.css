@@ -1,0 +1,36 @@
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.shadow-md-custom {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.border-t-custom {
+    border-top-width: 5px;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.graph {
+    max-height: 500px;
+}
+
+.crud-btn {
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* promom.css */
+#send-email-form textarea {
+    height: 8rem; /* Adjust the height as per your preference */
+    min-height: 8rem; /* Ensure a minimum height */
+}
+

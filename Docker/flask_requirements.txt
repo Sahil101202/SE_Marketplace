@@ -1,0 +1,14 @@
+Flask
+requests
+mysql-connector-python
+Flask-JWT
+PyJwt
+datetime
+werkzeug
+flask-Cors
+stripe
+shippo
+easypost
+Flask-Mail
+flask_mail
+extensions

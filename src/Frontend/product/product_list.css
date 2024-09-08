@@ -1,0 +1,61 @@
+/* CSS for Product List */
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.product:hover{
+    box-shadow: 2px 2px 2px 2px black;
+    transform: scale(1.05);
+}
+
+.product .product-details {
+    padding: 10px;
+}
+
+.product h3 {
+    margin: 0 0 5px;
+    font-size: 1.2rem;
+}
+
+.product p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Button Style */
+#fetch-products-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fetch-products-btn:hover {
+    background-color: #0056b3;
+}

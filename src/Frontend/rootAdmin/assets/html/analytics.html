@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="http://localhost:8080/rootAdmin/assets/css/analytics.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="http://localhost:8080/rootAdmin/assets/css/sidebar.css" rel="stylesheet">
+    <div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","de","it","am","gu"],"globe_color":"#fff","wrapper_selector":".gtranslate_wrapper","flag_size":16,"horizontal_position":"left","vertical_position":"bottom","globe_size":40}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script src="http://localhost:8080/theme.js"></script>
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <div class="flex flex-col md:flex-row min-h-screen">
+        <div id="header-container"></div>
+
+        <!-- Main Content -->
+        <div class="w-full md:w-3/4 p-6">
+            <h1 class="text-3xl font-bold mb-4">Analytics</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div class="card">
+                    <p class="text-gray-600">Sales Rate</p>
+                    <p class="text-2xl font-bold" id="sales-rate">75%</p>
+                </div>
+                <div class="card">
+                    <p class="text-gray-600">Products Available</p>
+                    <p class="text-2xl font-bold" id="products-available">1200</p>
+                </div>
+                <div class="card">
+                    <p class="text-gray-600">Total Users</p>
+                    <p class="text-2xl font-bold" id="total-users">1500</p>
+                </div>
+                <div class="card">
+                    <p class="text-gray-600">Orders Placed</p>
+                    <p class="text-2xl font-bold" id="orders-placed">300</p>
+                </div>
+                <div class="card">
+                    <p class="text-gray-600">Items in Carts</p>
+                    <p class="text-2xl font-bold" id="items-in-carts">450</p>
+                </div>
+                <div class="card">
+                    <p class="text-gray-600">Conversion Rate</p>
+                    <p class="text-2xl font-bold" id="conversion-rate">60%</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div class="card">
+                    <p class="text-gray-600">Sales Over Time</p>
+                    <canvas id="salesOverTimeChart" class="mt-4"></canvas>
+                </div>
+                <div class="card">
+                    <p class="text-gray-600">Top Products</p>
+                    <canvas id="topProductsChart" class="mt-4"></canvas>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div class="card">
+                    <p class="text-gray-600">User Growth</p>
+                    <canvas id="userGrowthChart" class="mt-4"></canvas>
+                </div>
+                <div class="card">
+                    <p class="text-gray-600">Orders by Category</p>
+                    <canvas id="ordersByCategoryChart" class="mt-4"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://localhost:8080/rootAdmin/assets/js/analytics.js"></script>
+    <script src="http://localhost:8080/rootAdmin/assets/js/loadSidebar.js"></script>
+    <script src="http://localhost:8080/rootAdmin/assets/js/logout.js"></script>
+    <script src="http://localhost:8080/rootAdmin/assets/js/sidebar.js"></script>
+</body>
+
+</html>

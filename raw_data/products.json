@@ -1,0 +1,3232 @@
+[
+    {
+        "vendor_id": 2,
+        "vendor_name": "John's Apparel",
+        "products": [
+            {
+                "product_id": "23",
+                "name": "John's Apparel Women Skirts",
+                "quantity": 190,
+                "price": 65.15,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "John's Apparel Men Jeans",
+                "quantity": 131,
+                "price": 58.54,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "John's Apparel Kids Shorts",
+                "quantity": 167,
+                "price": 54.71,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "John's Apparel Women Dresses",
+                "quantity": 14,
+                "price": 49.68,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "John's Apparel Kids Jackets",
+                "quantity": 130,
+                "price": 79.33,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "John's Apparel Women Trousers",
+                "quantity": 66,
+                "price": 74.78,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "John's Apparel Men Jackets",
+                "quantity": 65,
+                "price": 70.26,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "John's Apparel Women Skirts",
+                "quantity": 55,
+                "price": 28.83,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "John's Apparel Men Hoodies",
+                "quantity": 110,
+                "price": 57.71,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "John's Apparel Women Sweaters",
+                "quantity": 11,
+                "price": 53.38,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 3,
+        "vendor_name": "Sophie's Styles",
+        "products": [
+            {
+                "product_id": "17",
+                "name": "Sophie's Styles Men Suits",
+                "quantity": 158,
+                "price": 53.08,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Sophie's Styles Kids Pajamas",
+                "quantity": 184,
+                "price": 74.26,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Sophie's Styles Men Jeans",
+                "quantity": 105,
+                "price": 30.46,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Sophie's Styles Kids Dresses",
+                "quantity": 47,
+                "price": 31.64,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Sophie's Styles Women Trousers",
+                "quantity": 107,
+                "price": 27.81,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Sophie's Styles Kids Pajamas",
+                "quantity": 169,
+                "price": 25.97,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Sophie's Styles Kids Jeans",
+                "quantity": 166,
+                "price": 65.96,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Sophie's Styles Kids Dresses",
+                "quantity": 24,
+                "price": 52.4,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Sophie's Styles Kids T-Shirts",
+                "quantity": 113,
+                "price": 71.34,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Sophie's Styles Women Tops",
+                "quantity": 174,
+                "price": 66.52,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "Sophie's Styles Women Jeans",
+                "quantity": 115,
+                "price": 10.04,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Sophie's Styles Women Dresses",
+                "quantity": 185,
+                "price": 70.86,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "14",
+                "name": "Sophie's Styles Men T-Shirts",
+                "quantity": 58,
+                "price": 61.67,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Sophie's Styles Men Jeans",
+                "quantity": 186,
+                "price": 52.26,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Sophie's Styles Women Tops",
+                "quantity": 93,
+                "price": 13.05,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Sophie's Styles Women Trousers",
+                "quantity": 182,
+                "price": 86.56,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Sophie's Styles Kids Dresses",
+                "quantity": 154,
+                "price": 20.13,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Sophie's Styles Women Cardigans",
+                "quantity": 47,
+                "price": 61.42,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Sophie's Styles Women Sweaters",
+                "quantity": 29,
+                "price": 55.29,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Sophie's Styles Men Shorts",
+                "quantity": 65,
+                "price": 63.56,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Sophie's Styles Men Hoodies",
+                "quantity": 12,
+                "price": 99.57,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Sophie's Styles Women Tops",
+                "quantity": 138,
+                "price": 96.06,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Sophie's Styles Men Polo Shirts",
+                "quantity": 53,
+                "price": 42.57,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Sophie's Styles Kids Jackets",
+                "quantity": 141,
+                "price": 44.9,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Sophie's Styles Kids Jackets",
+                "quantity": 53,
+                "price": 84.29,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Sophie's Styles Women Dresses",
+                "quantity": 91,
+                "price": 87.33,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Sophie's Styles Kids Dresses",
+                "quantity": 113,
+                "price": 82.89,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 4,
+        "vendor_name": "EcoWear",
+        "products": [
+            {
+                "product_id": "22",
+                "name": "EcoWear Women Dresses",
+                "quantity": 115,
+                "price": 77.27,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "EcoWear Men Jeans",
+                "quantity": 128,
+                "price": 43.37,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "EcoWear Women Jeans",
+                "quantity": 91,
+                "price": 31.31,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "14",
+                "name": "EcoWear Men T-Shirts",
+                "quantity": 63,
+                "price": 22.43,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "EcoWear Kids Sweaters",
+                "quantity": 17,
+                "price": 60.56,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "EcoWear Men Hoodies",
+                "quantity": 94,
+                "price": 78.53,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "14",
+                "name": "EcoWear Men T-Shirts",
+                "quantity": 14,
+                "price": 14.1,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "EcoWear Kids Sweaters",
+                "quantity": 178,
+                "price": 85.13,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "EcoWear Kids Pajamas",
+                "quantity": 97,
+                "price": 80.09,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "EcoWear Kids Sweaters",
+                "quantity": 24,
+                "price": 55.16,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "EcoWear Kids Jackets",
+                "quantity": 31,
+                "price": 72.17,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "EcoWear Women Sweaters",
+                "quantity": 56,
+                "price": 98.48,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "EcoWear Kids T-Shirts",
+                "quantity": 159,
+                "price": 35.6,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "EcoWear Women Skirts",
+                "quantity": 120,
+                "price": 14.97,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "EcoWear Women Cardigans",
+                "quantity": 74,
+                "price": 86.81,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "EcoWear Women Sweaters",
+                "quantity": 186,
+                "price": 58.2,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "EcoWear Women Trousers",
+                "quantity": 162,
+                "price": 24.37,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "EcoWear Women Dresses",
+                "quantity": 14,
+                "price": 41.13,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "EcoWear Men Suits",
+                "quantity": 180,
+                "price": 12.13,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "EcoWear Women Sweaters",
+                "quantity": 145,
+                "price": 65.36,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "EcoWear Kids T-Shirts",
+                "quantity": 111,
+                "price": 48.85,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "EcoWear Kids Pajamas",
+                "quantity": 158,
+                "price": 19.28,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "EcoWear Kids Jackets",
+                "quantity": 130,
+                "price": 23.22,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "EcoWear Men Suits",
+                "quantity": 148,
+                "price": 92.82,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "EcoWear Women Cardigans",
+                "quantity": 118,
+                "price": 72.54,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "EcoWear Kids Jeans",
+                "quantity": 189,
+                "price": 86.42,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "EcoWear Kids Jeans",
+                "quantity": 30,
+                "price": 19.57,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 5,
+        "vendor_name": "Urban Chic",
+        "products": [
+            {
+                "product_id": "32",
+                "name": "Urban Chic Kids Dresses",
+                "quantity": 56,
+                "price": 76.27,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Urban Chic Men Jeans",
+                "quantity": 24,
+                "price": 11.35,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Urban Chic Women Trousers",
+                "quantity": 37,
+                "price": 93.96,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Urban Chic Men Suits",
+                "quantity": 68,
+                "price": 16.3,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Urban Chic Men Hoodies",
+                "quantity": 119,
+                "price": 35.24,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Urban Chic Women Dresses",
+                "quantity": 124,
+                "price": 43.23,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Urban Chic Kids Jeans",
+                "quantity": 116,
+                "price": 54.34,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Urban Chic Men Polo Shirts",
+                "quantity": 141,
+                "price": 76.18,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Urban Chic Men Jeans",
+                "quantity": 40,
+                "price": 25.76,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Urban Chic Men Jackets",
+                "quantity": 108,
+                "price": 13.95,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Urban Chic Men Polo Shirts",
+                "quantity": 168,
+                "price": 39.76,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Urban Chic Men Shorts",
+                "quantity": 135,
+                "price": 61.33,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Urban Chic Kids T-Shirts",
+                "quantity": 119,
+                "price": 41.24,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Urban Chic Women Sweaters",
+                "quantity": 128,
+                "price": 38.48,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Urban Chic Kids T-Shirts",
+                "quantity": 142,
+                "price": 75.76,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Urban Chic Kids Sweaters",
+                "quantity": 142,
+                "price": 58.25,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Urban Chic Women Cardigans",
+                "quantity": 143,
+                "price": 81.0,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Urban Chic Women Skirts",
+                "quantity": 86,
+                "price": 79.66,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Urban Chic Kids Jeans",
+                "quantity": 123,
+                "price": 38.67,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Urban Chic Kids Pajamas",
+                "quantity": 190,
+                "price": 66.67,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Urban Chic Kids T-Shirts",
+                "quantity": 198,
+                "price": 11.21,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Urban Chic Women Tops",
+                "quantity": 81,
+                "price": 76.18,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Urban Chic Men Suits",
+                "quantity": 147,
+                "price": 46.37,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Urban Chic Women Skirts",
+                "quantity": 198,
+                "price": 32.58,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Urban Chic Women Trousers",
+                "quantity": 128,
+                "price": 20.55,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Urban Chic Kids Shorts",
+                "quantity": 21,
+                "price": 58.65,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Urban Chic Men Hoodies",
+                "quantity": 30,
+                "price": 15.6,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 6,
+        "vendor_name": "Vintage Vibes",
+        "products": [
+            {
+                "product_id": "31",
+                "name": "Vintage Vibes Kids Jackets",
+                "quantity": 73,
+                "price": 77.37,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Vintage Vibes Women Trousers",
+                "quantity": 47,
+                "price": 55.75,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Vintage Vibes Women Tops",
+                "quantity": 10,
+                "price": 70.45,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Vintage Vibes Kids Sweaters",
+                "quantity": 159,
+                "price": 86.81,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Vintage Vibes Men Hoodies",
+                "quantity": 60,
+                "price": 52.76,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Vintage Vibes Men Shorts",
+                "quantity": 77,
+                "price": 88.35,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Vintage Vibes Women Sweaters",
+                "quantity": 194,
+                "price": 85.35,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Vintage Vibes Kids Sweaters",
+                "quantity": 162,
+                "price": 81.93,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Vintage Vibes Kids Jackets",
+                "quantity": 48,
+                "price": 64.27,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Vintage Vibes Women Cardigans",
+                "quantity": 164,
+                "price": 14.29,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Vintage Vibes Men Shorts",
+                "quantity": 120,
+                "price": 53.62,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Vintage Vibes Women Dresses",
+                "quantity": 180,
+                "price": 36.15,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Vintage Vibes Kids T-Shirts",
+                "quantity": 51,
+                "price": 52.68,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Vintage Vibes Kids Sweaters",
+                "quantity": 81,
+                "price": 93.77,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Vintage Vibes Men Polo Shirts",
+                "quantity": 189,
+                "price": 15.03,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Vintage Vibes Men Jeans",
+                "quantity": 107,
+                "price": 54.94,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Vintage Vibes Women Dresses",
+                "quantity": 55,
+                "price": 29.21,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Vintage Vibes Women Sweaters",
+                "quantity": 66,
+                "price": 96.06,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Vintage Vibes Women Tops",
+                "quantity": 129,
+                "price": 46.49,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Vintage Vibes Men Hoodies",
+                "quantity": 148,
+                "price": 27.14,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Vintage Vibes Kids Dresses",
+                "quantity": 162,
+                "price": 85.12,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Vintage Vibes Men Hoodies",
+                "quantity": 99,
+                "price": 83.82,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Vintage Vibes Kids Jackets",
+                "quantity": 173,
+                "price": 25.97,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Vintage Vibes Men Jackets",
+                "quantity": 33,
+                "price": 71.34,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Vintage Vibes Kids Sweaters",
+                "quantity": 106,
+                "price": 67.44,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 7,
+        "vendor_name": "Sporty Goods",
+        "products": [
+            {
+                "product_id": "27",
+                "name": "Sporty Goods Women Tops",
+                "quantity": 107,
+                "price": 93.38,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Sporty Goods Men Polo Shirts",
+                "quantity": 69,
+                "price": 66.34,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Sporty Goods Men Jeans",
+                "quantity": 123,
+                "price": 45.07,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Sporty Goods Kids Jackets",
+                "quantity": 50,
+                "price": 24.75,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Sporty Goods Women Cardigans",
+                "quantity": 176,
+                "price": 38.98,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Sporty Goods Men Shorts",
+                "quantity": 160,
+                "price": 21.81,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Sporty Goods Kids Shorts",
+                "quantity": 169,
+                "price": 10.82,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Sporty Goods Kids Jeans",
+                "quantity": 101,
+                "price": 72.49,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Sporty Goods Women Cardigans",
+                "quantity": 40,
+                "price": 56.79,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Sporty Goods Men Jackets",
+                "quantity": 45,
+                "price": 87.18,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Sporty Goods Women Cardigans",
+                "quantity": 41,
+                "price": 29.85,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Sporty Goods Women Cardigans",
+                "quantity": 200,
+                "price": 92.48,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Sporty Goods Men Jackets",
+                "quantity": 79,
+                "price": 71.8,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Sporty Goods Men Suits",
+                "quantity": 91,
+                "price": 11.95,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 8,
+        "vendor_name": "Luxury Linens",
+        "products": [
+            {
+                "product_id": "14",
+                "name": "Luxury Linens Men T-Shirts",
+                "quantity": 60,
+                "price": 53.95,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Luxury Linens Women Tops",
+                "quantity": 132,
+                "price": 13.56,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "Luxury Linens Women Jeans",
+                "quantity": 198,
+                "price": 10.52,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Luxury Linens Kids Sweaters",
+                "quantity": 99,
+                "price": 20.79,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Luxury Linens Kids Dresses",
+                "quantity": 146,
+                "price": 75.44,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Luxury Linens Women Tops",
+                "quantity": 11,
+                "price": 60.62,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Luxury Linens Kids Sweaters",
+                "quantity": 195,
+                "price": 57.47,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "Luxury Linens Women Jeans",
+                "quantity": 166,
+                "price": 59.84,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Luxury Linens Men Sweaters",
+                "quantity": 139,
+                "price": 51.61,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Luxury Linens Men Sweaters",
+                "quantity": 88,
+                "price": 34.61,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Luxury Linens Men Polo Shirts",
+                "quantity": 37,
+                "price": 39.9,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Luxury Linens Kids Jackets",
+                "quantity": 164,
+                "price": 47.86,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Luxury Linens Women Trousers",
+                "quantity": 188,
+                "price": 77.77,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Luxury Linens Women Tops",
+                "quantity": 156,
+                "price": 50.24,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Luxury Linens Men Jeans",
+                "quantity": 144,
+                "price": 73.24,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Luxury Linens Men Sweaters",
+                "quantity": 13,
+                "price": 17.02,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Luxury Linens Kids Jackets",
+                "quantity": 15,
+                "price": 94.76,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Luxury Linens Kids Shorts",
+                "quantity": 163,
+                "price": 19.48,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 9,
+        "vendor_name": "Kiddo Fashion",
+        "products": [
+            {
+                "product_id": "18",
+                "name": "Kiddo Fashion Men Sweaters",
+                "quantity": 134,
+                "price": 49.76,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Kiddo Fashion Women Trousers",
+                "quantity": 26,
+                "price": 22.83,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Kiddo Fashion Women Dresses",
+                "quantity": 156,
+                "price": 37.93,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Kiddo Fashion Women Dresses",
+                "quantity": 138,
+                "price": 91.4,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Kiddo Fashion Kids Jackets",
+                "quantity": 131,
+                "price": 84.67,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Kiddo Fashion Kids Shorts",
+                "quantity": 85,
+                "price": 36.05,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Kiddo Fashion Men Shorts",
+                "quantity": 171,
+                "price": 94.3,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Kiddo Fashion Men Suits",
+                "quantity": 127,
+                "price": 50.01,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Kiddo Fashion Men Shorts",
+                "quantity": 153,
+                "price": 54.64,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Kiddo Fashion Kids Jackets",
+                "quantity": 77,
+                "price": 75.78,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Kiddo Fashion Women Skirts",
+                "quantity": 121,
+                "price": 40.44,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Kiddo Fashion Women Tops",
+                "quantity": 120,
+                "price": 60.49,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Kiddo Fashion Women Cardigans",
+                "quantity": 24,
+                "price": 21.37,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Kiddo Fashion Men Hoodies",
+                "quantity": 182,
+                "price": 88.01,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Kiddo Fashion Kids Shorts",
+                "quantity": 157,
+                "price": 18.27,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Kiddo Fashion Women Tops",
+                "quantity": 101,
+                "price": 59.02,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Kiddo Fashion Women Dresses",
+                "quantity": 170,
+                "price": 69.44,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Kiddo Fashion Kids Jackets",
+                "quantity": 160,
+                "price": 92.93,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 10,
+        "vendor_name": "Boho Bliss",
+        "products": [
+            {
+                "product_id": "24",
+                "name": "Boho Bliss Women Trousers",
+                "quantity": 88,
+                "price": 99.23,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Boho Bliss Kids Pajamas",
+                "quantity": 171,
+                "price": 69.9,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Boho Bliss Kids Shorts",
+                "quantity": 83,
+                "price": 92.86,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Boho Bliss Kids Sweaters",
+                "quantity": 93,
+                "price": 87.02,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Boho Bliss Women Trousers",
+                "quantity": 55,
+                "price": 11.16,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Boho Bliss Women Cardigans",
+                "quantity": 100,
+                "price": 69.91,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Boho Bliss Kids Jeans",
+                "quantity": 96,
+                "price": 94.1,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 11,
+        "vendor_name": "Formal Attire",
+        "products": [
+            {
+                "product_id": "22",
+                "name": "Formal Attire Women Dresses",
+                "quantity": 20,
+                "price": 93.36,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Formal Attire Men Jeans",
+                "quantity": 30,
+                "price": 69.98,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Formal Attire Kids Jackets",
+                "quantity": 91,
+                "price": 33.55,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Formal Attire Men Hoodies",
+                "quantity": 180,
+                "price": 64.29,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Formal Attire Kids Jeans",
+                "quantity": 78,
+                "price": 55.66,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Formal Attire Women Sweaters",
+                "quantity": 71,
+                "price": 36.31,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Formal Attire Women Cardigans",
+                "quantity": 126,
+                "price": 11.08,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "14",
+                "name": "Formal Attire Men T-Shirts",
+                "quantity": 155,
+                "price": 77.91,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Formal Attire Men Shorts",
+                "quantity": 11,
+                "price": 94.09,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Formal Attire Women Skirts",
+                "quantity": 58,
+                "price": 10.5,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Formal Attire Men Polo Shirts",
+                "quantity": 158,
+                "price": 16.19,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Formal Attire Kids Jackets",
+                "quantity": 86,
+                "price": 60.32,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Formal Attire Men Jackets",
+                "quantity": 169,
+                "price": 77.44,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Formal Attire Men Jackets",
+                "quantity": 88,
+                "price": 44.22,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Formal Attire Women Trousers",
+                "quantity": 38,
+                "price": 70.52,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Formal Attire Men Polo Shirts",
+                "quantity": 36,
+                "price": 23.16,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Formal Attire Men Shorts",
+                "quantity": 179,
+                "price": 47.4,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Formal Attire Women Trousers",
+                "quantity": 190,
+                "price": 24.42,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Formal Attire Women Cardigans",
+                "quantity": 99,
+                "price": 91.96,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Formal Attire Kids Jackets",
+                "quantity": 18,
+                "price": 13.82,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Formal Attire Women Dresses",
+                "quantity": 173,
+                "price": 10.14,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Formal Attire Women Dresses",
+                "quantity": 134,
+                "price": 72.44,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "14",
+                "name": "Formal Attire Men T-Shirts",
+                "quantity": 117,
+                "price": 66.31,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 12,
+        "vendor_name": "Casual Comforts",
+        "products": [
+            {
+                "product_id": "18",
+                "name": "Casual Comforts Men Sweaters",
+                "quantity": 170,
+                "price": 61.78,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Casual Comforts Women Skirts",
+                "quantity": 131,
+                "price": 78.7,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Casual Comforts Kids Dresses",
+                "quantity": 99,
+                "price": 96.77,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Casual Comforts Women Dresses",
+                "quantity": 93,
+                "price": 89.42,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Casual Comforts Kids T-Shirts",
+                "quantity": 70,
+                "price": 18.58,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Casual Comforts Kids Shorts",
+                "quantity": 45,
+                "price": 65.33,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Casual Comforts Kids Pajamas",
+                "quantity": 87,
+                "price": 30.09,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Casual Comforts Men Polo Shirts",
+                "quantity": 55,
+                "price": 98.21,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Casual Comforts Men Polo Shirts",
+                "quantity": 68,
+                "price": 86.07,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "14",
+                "name": "Casual Comforts Men T-Shirts",
+                "quantity": 141,
+                "price": 80.84,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Casual Comforts Men Jackets",
+                "quantity": 75,
+                "price": 16.05,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Casual Comforts Kids Shorts",
+                "quantity": 39,
+                "price": 39.98,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Casual Comforts Men Polo Shirts",
+                "quantity": 80,
+                "price": 21.07,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Casual Comforts Men Jackets",
+                "quantity": 25,
+                "price": 69.82,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Casual Comforts Kids Jeans",
+                "quantity": 93,
+                "price": 30.54,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Casual Comforts Kids Jackets",
+                "quantity": 135,
+                "price": 47.4,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Casual Comforts Kids Jeans",
+                "quantity": 195,
+                "price": 18.59,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Casual Comforts Kids T-Shirts",
+                "quantity": 109,
+                "price": 93.41,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Casual Comforts Men Suits",
+                "quantity": 17,
+                "price": 11.99,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 13,
+        "vendor_name": "Beachside Boutique",
+        "products": [
+            {
+                "product_id": "14",
+                "name": "Beachside Boutique Men T-Shirts",
+                "quantity": 53,
+                "price": 71.62,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Beachside Boutique Women Dresses",
+                "quantity": 71,
+                "price": 46.17,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Beachside Boutique Kids Dresses",
+                "quantity": 19,
+                "price": 18.66,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Beachside Boutique Men Shorts",
+                "quantity": 65,
+                "price": 62.55,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Beachside Boutique Kids T-Shirts",
+                "quantity": 12,
+                "price": 41.5,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Beachside Boutique Kids Jackets",
+                "quantity": 129,
+                "price": 99.96,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Beachside Boutique Kids Jackets",
+                "quantity": 157,
+                "price": 53.2,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Beachside Boutique Men Shorts",
+                "quantity": 198,
+                "price": 64.48,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Beachside Boutique Kids Pajamas",
+                "quantity": 44,
+                "price": 70.66,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Beachside Boutique Kids Jackets",
+                "quantity": 107,
+                "price": 87.4,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Beachside Boutique Men Jeans",
+                "quantity": 126,
+                "price": 76.67,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Beachside Boutique Women Skirts",
+                "quantity": 198,
+                "price": 83.74,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 14,
+        "vendor_name": "Mountain Gear",
+        "products": [
+            {
+                "product_id": "34",
+                "name": "Mountain Gear Kids Sweaters",
+                "quantity": 125,
+                "price": 85.65,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 15,
+        "vendor_name": "Office Essentials",
+        "products": [
+            {
+                "product_id": "31",
+                "name": "Office Essentials Kids Jackets",
+                "quantity": 32,
+                "price": 24.52,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Office Essentials Women Tops",
+                "quantity": 32,
+                "price": 53.99,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Office Essentials Women Dresses",
+                "quantity": 36,
+                "price": 69.33,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Office Essentials Men Hoodies",
+                "quantity": 47,
+                "price": 58.88,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Office Essentials Men Shorts",
+                "quantity": 73,
+                "price": 15.69,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Office Essentials Kids Jackets",
+                "quantity": 70,
+                "price": 39.17,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Office Essentials Women Dresses",
+                "quantity": 133,
+                "price": 11.58,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Office Essentials Men Shorts",
+                "quantity": 103,
+                "price": 46.78,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Office Essentials Men Jeans",
+                "quantity": 152,
+                "price": 96.6,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Office Essentials Women Tops",
+                "quantity": 126,
+                "price": 25.31,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Office Essentials Kids Pajamas",
+                "quantity": 82,
+                "price": 23.96,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Office Essentials Men Polo Shirts",
+                "quantity": 128,
+                "price": 43.72,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "Office Essentials Women Jeans",
+                "quantity": 184,
+                "price": 95.36,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Office Essentials Kids Shorts",
+                "quantity": 40,
+                "price": 56.18,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Office Essentials Men Hoodies",
+                "quantity": 22,
+                "price": 84.68,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Office Essentials Men Jeans",
+                "quantity": 156,
+                "price": 71.76,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 16,
+        "vendor_name": "Glamour Gowns",
+        "products": [
+            {
+                "product_id": "16",
+                "name": "Glamour Gowns Men Jackets",
+                "quantity": 22,
+                "price": 21.14,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Glamour Gowns Kids Jackets",
+                "quantity": 68,
+                "price": 33.14,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Glamour Gowns Women Sweaters",
+                "quantity": 56,
+                "price": 36.73,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Glamour Gowns Kids Jeans",
+                "quantity": 55,
+                "price": 86.22,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Glamour Gowns Men Hoodies",
+                "quantity": 104,
+                "price": 45.98,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Glamour Gowns Men Hoodies",
+                "quantity": 144,
+                "price": 28.77,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Glamour Gowns Men Shorts",
+                "quantity": 120,
+                "price": 83.43,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Glamour Gowns Women Tops",
+                "quantity": 29,
+                "price": 86.21,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "14",
+                "name": "Glamour Gowns Men T-Shirts",
+                "quantity": 19,
+                "price": 49.58,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Glamour Gowns Men Jeans",
+                "quantity": 165,
+                "price": 20.34,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Glamour Gowns Women Dresses",
+                "quantity": 166,
+                "price": 32.43,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Glamour Gowns Men Sweaters",
+                "quantity": 149,
+                "price": 43.12,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Glamour Gowns Kids Sweaters",
+                "quantity": 43,
+                "price": 95.94,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Glamour Gowns Men Jackets",
+                "quantity": 108,
+                "price": 49.64,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Glamour Gowns Women Tops",
+                "quantity": 22,
+                "price": 82.44,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Glamour Gowns Kids Pajamas",
+                "quantity": 22,
+                "price": 44.06,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Glamour Gowns Kids Sweaters",
+                "quantity": 35,
+                "price": 15.9,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 17,
+        "vendor_name": "Fitness Freaks",
+        "products": [
+            {
+                "product_id": "24",
+                "name": "Fitness Freaks Women Trousers",
+                "quantity": 150,
+                "price": 93.91,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "Fitness Freaks Women Jeans",
+                "quantity": 104,
+                "price": 16.73,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Fitness Freaks Kids Shorts",
+                "quantity": 133,
+                "price": 80.4,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Fitness Freaks Women Skirts",
+                "quantity": 80,
+                "price": 25.85,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "Fitness Freaks Women Jeans",
+                "quantity": 196,
+                "price": 16.34,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "Fitness Freaks Women Jeans",
+                "quantity": 140,
+                "price": 69.24,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Fitness Freaks Kids Dresses",
+                "quantity": 116,
+                "price": 82.28,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Fitness Freaks Women Cardigans",
+                "quantity": 39,
+                "price": 55.26,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Fitness Freaks Women Trousers",
+                "quantity": 99,
+                "price": 37.42,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Fitness Freaks Kids Dresses",
+                "quantity": 96,
+                "price": 17.57,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Fitness Freaks Women Sweaters",
+                "quantity": 64,
+                "price": 47.21,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Fitness Freaks Kids Dresses",
+                "quantity": 164,
+                "price": 87.66,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Fitness Freaks Kids Jackets",
+                "quantity": 104,
+                "price": 52.99,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Fitness Freaks Kids Jeans",
+                "quantity": 112,
+                "price": 48.0,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Fitness Freaks Kids T-Shirts",
+                "quantity": 101,
+                "price": 81.51,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Fitness Freaks Men Sweaters",
+                "quantity": 50,
+                "price": 86.47,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Fitness Freaks Men Sweaters",
+                "quantity": 179,
+                "price": 40.23,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Fitness Freaks Kids Shorts",
+                "quantity": 37,
+                "price": 97.17,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Fitness Freaks Women Sweaters",
+                "quantity": 97,
+                "price": 33.74,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 18,
+        "vendor_name": "Denim Depot",
+        "products": [
+            {
+                "product_id": "29",
+                "name": "Denim Depot Kids T-Shirts",
+                "quantity": 92,
+                "price": 16.3,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Denim Depot Kids Pajamas",
+                "quantity": 81,
+                "price": 10.89,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Denim Depot Men Jackets",
+                "quantity": 151,
+                "price": 31.02,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Denim Depot Women Dresses",
+                "quantity": 182,
+                "price": 81.59,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Denim Depot Men Hoodies",
+                "quantity": 64,
+                "price": 11.39,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Denim Depot Men Sweaters",
+                "quantity": 17,
+                "price": 22.44,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Denim Depot Kids Jackets",
+                "quantity": 37,
+                "price": 24.1,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Denim Depot Kids Dresses",
+                "quantity": 57,
+                "price": 95.58,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Denim Depot Men Polo Shirts",
+                "quantity": 172,
+                "price": 45.11,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Denim Depot Kids T-Shirts",
+                "quantity": 120,
+                "price": 13.19,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "14",
+                "name": "Denim Depot Men T-Shirts",
+                "quantity": 121,
+                "price": 95.71,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Denim Depot Kids Pajamas",
+                "quantity": 107,
+                "price": 87.3,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Denim Depot Kids Jackets",
+                "quantity": 95,
+                "price": 12.6,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Denim Depot Men Shorts",
+                "quantity": 39,
+                "price": 37.75,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Denim Depot Men Jackets",
+                "quantity": 86,
+                "price": 79.9,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Denim Depot Kids Jackets",
+                "quantity": 127,
+                "price": 47.49,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Denim Depot Kids Shorts",
+                "quantity": 18,
+                "price": 73.65,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "Denim Depot Women Jeans",
+                "quantity": 82,
+                "price": 20.37,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Denim Depot Kids Pajamas",
+                "quantity": 143,
+                "price": 54.81,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Denim Depot Women Cardigans",
+                "quantity": 75,
+                "price": 27.07,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Denim Depot Women Tops",
+                "quantity": 33,
+                "price": 11.72,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Denim Depot Men Suits",
+                "quantity": 76,
+                "price": 29.61,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Denim Depot Women Sweaters",
+                "quantity": 49,
+                "price": 91.01,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 19,
+        "vendor_name": "Silk & Satin",
+        "products": [
+            {
+                "product_id": "31",
+                "name": "Silk & Satin Kids Jackets",
+                "quantity": 188,
+                "price": 39.47,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Silk & Satin Women Dresses",
+                "quantity": 18,
+                "price": 82.94,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Silk & Satin Women Skirts",
+                "quantity": 190,
+                "price": 20.47,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Silk & Satin Men Jackets",
+                "quantity": 65,
+                "price": 62.81,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Silk & Satin Kids Pajamas",
+                "quantity": 164,
+                "price": 38.02,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Silk & Satin Women Cardigans",
+                "quantity": 16,
+                "price": 82.28,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Silk & Satin Kids Jackets",
+                "quantity": 22,
+                "price": 95.45,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Silk & Satin Men Suits",
+                "quantity": 143,
+                "price": 58.36,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Silk & Satin Men Hoodies",
+                "quantity": 188,
+                "price": 69.8,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Silk & Satin Kids Shorts",
+                "quantity": 196,
+                "price": 27.28,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Silk & Satin Men Suits",
+                "quantity": 30,
+                "price": 62.05,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Silk & Satin Women Dresses",
+                "quantity": 123,
+                "price": 11.01,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Silk & Satin Kids Dresses",
+                "quantity": 144,
+                "price": 68.31,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "15",
+                "name": "Silk & Satin Men Jeans",
+                "quantity": 72,
+                "price": 79.83,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Silk & Satin Kids Shorts",
+                "quantity": 85,
+                "price": 24.02,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "26",
+                "name": "Silk & Satin Women Jeans",
+                "quantity": 114,
+                "price": 55.3,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Silk & Satin Kids Jackets",
+                "quantity": 151,
+                "price": 36.84,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 20,
+        "vendor_name": "Leather Lounge",
+        "products": [
+            {
+                "product_id": "27",
+                "name": "Leather Lounge Women Tops",
+                "quantity": 122,
+                "price": 51.96,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Leather Lounge Women Sweaters",
+                "quantity": 80,
+                "price": 26.91,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Leather Lounge Men Sweaters",
+                "quantity": 63,
+                "price": 30.55,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Leather Lounge Men Sweaters",
+                "quantity": 65,
+                "price": 54.48,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 21,
+        "vendor_name": "Hipster Haven",
+        "products": [
+            {
+                "product_id": "31",
+                "name": "Hipster Haven Kids Jackets",
+                "quantity": 30,
+                "price": 53.82,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Hipster Haven Men Suits",
+                "quantity": 59,
+                "price": 73.53,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Hipster Haven Kids Pajamas",
+                "quantity": 109,
+                "price": 15.85,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Hipster Haven Women Cardigans",
+                "quantity": 36,
+                "price": 47.43,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Hipster Haven Men Polo Shirts",
+                "quantity": 83,
+                "price": 74.11,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Hipster Haven Men Sweaters",
+                "quantity": 157,
+                "price": 44.2,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Hipster Haven Kids Pajamas",
+                "quantity": 186,
+                "price": 98.72,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Hipster Haven Kids Jackets",
+                "quantity": 167,
+                "price": 56.58,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Hipster Haven Kids Pajamas",
+                "quantity": 124,
+                "price": 15.06,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Hipster Haven Kids Jeans",
+                "quantity": 137,
+                "price": 58.76,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Hipster Haven Women Skirts",
+                "quantity": 74,
+                "price": 99.4,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Hipster Haven Kids T-Shirts",
+                "quantity": 110,
+                "price": 54.22,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Hipster Haven Men Polo Shirts",
+                "quantity": 166,
+                "price": 44.58,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Hipster Haven Women Cardigans",
+                "quantity": 147,
+                "price": 55.27,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Hipster Haven Women Cardigans",
+                "quantity": 76,
+                "price": 74.33,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Hipster Haven Men Shorts",
+                "quantity": 11,
+                "price": 36.35,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "18",
+                "name": "Hipster Haven Men Sweaters",
+                "quantity": 176,
+                "price": 11.3,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 22,
+        "vendor_name": "Outerwear Outlet",
+        "products": [
+            {
+                "product_id": "32",
+                "name": "Outerwear Outlet Kids Dresses",
+                "quantity": 53,
+                "price": 43.79,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Outerwear Outlet Women Tops",
+                "quantity": 17,
+                "price": 83.68,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Outerwear Outlet Men Shorts",
+                "quantity": 65,
+                "price": 97.65,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 23,
+        "vendor_name": "Formal Fashions",
+        "products": [
+            {
+                "product_id": "31",
+                "name": "Formal Fashions Kids Jackets",
+                "quantity": 167,
+                "price": 41.95,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Formal Fashions Women Dresses",
+                "quantity": 162,
+                "price": 40.4,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "31",
+                "name": "Formal Fashions Kids Jackets",
+                "quantity": 43,
+                "price": 82.97,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "19",
+                "name": "Formal Fashions Men Shorts",
+                "quantity": 33,
+                "price": 39.71,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Formal Fashions Men Jackets",
+                "quantity": 12,
+                "price": 33.82,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "33",
+                "name": "Formal Fashions Kids Pajamas",
+                "quantity": 195,
+                "price": 52.56,
+                "description": "Comfortable pajamas for a good night's sleep.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Formal Fashions Women Trousers",
+                "quantity": 91,
+                "price": 63.37,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Formal Fashions Women Dresses",
+                "quantity": 94,
+                "price": 49.6,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "29",
+                "name": "Formal Fashions Kids T-Shirts",
+                "quantity": 163,
+                "price": 64.55,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "14",
+                "name": "Formal Fashions Men T-Shirts",
+                "quantity": 115,
+                "price": 31.91,
+                "description": "High-quality cotton T-shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Formal Fashions Men Jackets",
+                "quantity": 125,
+                "price": 77.51,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Formal Fashions Women Dresses",
+                "quantity": 93,
+                "price": 92.21,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Formal Fashions Kids Shorts",
+                "quantity": 109,
+                "price": 30.05,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Formal Fashions Women Skirts",
+                "quantity": 109,
+                "price": 57.78,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "30",
+                "name": "Formal Fashions Kids Shorts",
+                "quantity": 159,
+                "price": 87.46,
+                "description": "Light and comfortable shorts.",
+                "product_image": 0
+            },
+            {
+                "product_id": "32",
+                "name": "Formal Fashions Kids Dresses",
+                "quantity": 171,
+                "price": 10.64,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Formal Fashions Women Trousers",
+                "quantity": 124,
+                "price": 74.62,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Formal Fashions Men Suits",
+                "quantity": 74,
+                "price": 96.68,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Formal Fashions Women Tops",
+                "quantity": 150,
+                "price": 13.52,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Formal Fashions Kids Jeans",
+                "quantity": 90,
+                "price": 48.94,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Formal Fashions Women Sweaters",
+                "quantity": 104,
+                "price": 93.95,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "35",
+                "name": "Formal Fashions Kids Jeans",
+                "quantity": 191,
+                "price": 59.88,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Formal Fashions Women Skirts",
+                "quantity": 177,
+                "price": 52.37,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "27",
+                "name": "Formal Fashions Women Tops",
+                "quantity": 18,
+                "price": 80.35,
+                "description": "Fashionable and comfortable top.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Formal Fashions Men Hoodies",
+                "quantity": 20,
+                "price": 54.98,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Formal Fashions Women Skirts",
+                "quantity": 183,
+                "price": 12.37,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "24",
+                "name": "Formal Fashions Women Trousers",
+                "quantity": 136,
+                "price": 70.06,
+                "description": "Elegant and comfortable trousers.",
+                "product_image": 0
+            },
+            {
+                "product_id": "21",
+                "name": "Formal Fashions Men Hoodies",
+                "quantity": 160,
+                "price": 26.14,
+                "description": "Warm and trendy hoodie.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 24,
+        "vendor_name": "Winter Wardrobe",
+        "products": [
+            {
+                "product_id": "35",
+                "name": "Winter Wardrobe Kids Jeans",
+                "quantity": 115,
+                "price": 10.18,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Winter Wardrobe Women Dresses",
+                "quantity": 169,
+                "price": 89.25,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "28",
+                "name": "Winter Wardrobe Women Cardigans",
+                "quantity": 173,
+                "price": 45.82,
+                "description": "Warm and trendy cardigan.",
+                "product_image": 0
+            },
+            {
+                "product_id": "16",
+                "name": "Winter Wardrobe Men Jackets",
+                "quantity": 84,
+                "price": 74.64,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            },
+            {
+                "product_id": "17",
+                "name": "Winter Wardrobe Men Suits",
+                "quantity": 85,
+                "price": 70.2,
+                "description": "Elegant and professional suit.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Winter Wardrobe Men Polo Shirts",
+                "quantity": 19,
+                "price": 50.72,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "34",
+                "name": "Winter Wardrobe Kids Sweaters",
+                "quantity": 95,
+                "price": 13.04,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            },
+            {
+                "product_id": "22",
+                "name": "Winter Wardrobe Women Dresses",
+                "quantity": 178,
+                "price": 48.63,
+                "description": "Elegant evening dress.",
+                "product_image": 0
+            },
+            {
+                "product_id": "25",
+                "name": "Winter Wardrobe Women Sweaters",
+                "quantity": 135,
+                "price": 47.83,
+                "description": "Cozy and fashionable sweater.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 25,
+        "vendor_name": "Summer Styles",
+        "products": [
+            {
+                "product_id": "35",
+                "name": "Summer Styles Kids Jeans",
+                "quantity": 108,
+                "price": 60.77,
+                "description": "Stylish and comfortable jeans.",
+                "product_image": 0
+            },
+            {
+                "product_id": "23",
+                "name": "Summer Styles Women Skirts",
+                "quantity": 196,
+                "price": 35.36,
+                "description": "Stylish and comfortable skirt.",
+                "product_image": 0
+            },
+            {
+                "product_id": "20",
+                "name": "Summer Styles Men Polo Shirts",
+                "quantity": 181,
+                "price": 67.55,
+                "description": "Classic and stylish polo shirt.",
+                "product_image": 0
+            }
+        ]
+    },
+    {
+        "vendor_id": 26,
+        "vendor_name": "Adventure Apparel",
+        "products": [
+            {
+                "product_id": "31",
+                "name": "Adventure Apparel Kids Jackets",
+                "quantity": 43,
+                "price": 99.36,
+                "description": "Warm and trendy jacket.",
+                "product_image": 0
+            }
+        ]
+    }
+]

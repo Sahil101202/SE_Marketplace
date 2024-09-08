@@ -1,0 +1,55 @@
+
+.about-section {
+    padding: 50px;
+}
+
+.university-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.university-logo {
+    width: 100px;
+    height: auto;
+}
+
+.about-section h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    color: #555;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.team-details {
+    flex: 1;
+}

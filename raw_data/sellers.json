@@ -1,0 +1,202 @@
+[
+    {
+        "name": "John's Apparel",
+        "email": "john@apparel.com",
+        "password": "johnpass123",
+        "description": "High-quality men's clothing and accessories.",
+        "photo": null,
+        "registered_date": "2024-08-01"
+    },
+    {
+        "name": "Sophie's Styles",
+        "email": "sophie@styles.com",
+        "password": "sophiepass456",
+        "description": "Trendy and stylish women's fashion.",
+        "photo": null,
+        "registered_date": "2024-08-02"
+    },
+    {
+        "name": "EcoWear",
+        "email": "contact@ecowear.com",
+        "password": "ecopass789",
+        "description": "Environmentally friendly and sustainable clothing.",
+        "photo": null,
+        "registered_date": "2024-08-03"
+    },
+    {
+        "name": "Urban Chic",
+        "email": "info@urbanchic.com",
+        "password": "urbanpass101",
+        "description": "Modern urban fashion for men and women.",
+        "photo": null,
+        "registered_date": "2024-08-04"
+    },
+    {
+        "name": "Vintage Vibes",
+        "email": "support@vintagevibes.com",
+        "password": "vintagepass202",
+        "description": "Classic and vintage clothing styles.",
+        "photo": null,
+        "registered_date": "2024-08-05"
+    },
+    {
+        "name": "Sporty Goods",
+        "email": "contact@sportygoods.com",
+        "password": "sportypass303",
+        "description": "Sportswear and athletic clothing.",
+        "photo": null,
+        "registered_date": "2024-08-06"
+    },
+    {
+        "name": "Luxury Linens",
+        "email": "sales@luxurylinens.com",
+        "password": "luxurypass404",
+        "description": "Premium linen and bedding collections.",
+        "photo": null,
+        "registered_date": "2024-08-07"
+    },
+    {
+        "name": "Kiddo Fashion",
+        "email": "info@kiddo.com",
+        "password": "kiddopass505",
+        "description": "Cute and comfortable clothing for kids.",
+        "photo": null,
+        "registered_date": "2024-08-08"
+    },
+    {
+        "name": "Boho Bliss",
+        "email": "contact@bohobliss.com",
+        "password": "bohopass606",
+        "description": "Bohemian and free-spirited fashion.",
+        "photo": null,
+        "registered_date": "2024-08-09"
+    },
+    {
+        "name": "Formal Attire",
+        "email": "support@formalattire.com",
+        "password": "formalpass707",
+        "description": "Elegant formal wear for all occasions.",
+        "photo": null,
+        "registered_date": "2024-08-10"
+    },
+    {
+        "name": "Casual Comforts",
+        "email": "info@casualcomforts.com",
+        "password": "casualpass808",
+        "description": "Comfortable and casual everyday wear.",
+        "photo": null,
+        "registered_date": "2024-08-11"
+    },
+    {
+        "name": "Beachside Boutique",
+        "email": "sales@beachside.com",
+        "password": "beachpass909",
+        "description": "Stylish beachwear and accessories.",
+        "photo": null,
+        "registered_date": "2024-08-12"
+    },
+    {
+        "name": "Mountain Gear",
+        "email": "contact@mountaingear.com",
+        "password": "mountainpass010",
+        "description": "Clothing and gear for mountain adventures.",
+        "photo": null,
+        "registered_date": "2024-08-13"
+    },
+    {
+        "name": "Office Essentials",
+        "email": "info@officeessentials.com",
+        "password": "officepass111",
+        "description": "Professional office wear and accessories.",
+        "photo": null,
+        "registered_date": "2024-08-14"
+    },
+    {
+        "name": "Glamour Gowns",
+        "email": "support@glamourgowns.com",
+        "password": "glamourpass212",
+        "description": "Elegant gowns for special occasions.",
+        "photo": null,
+        "registered_date": "2024-08-15"
+    },
+    {
+        "name": "Fitness Freaks",
+        "email": "sales@fitnessfreaks.com",
+        "password": "fitnesspass313",
+        "description": "High-performance fitness wear.",
+        "photo": null,
+        "registered_date": "2024-08-16"
+    },
+    {
+        "name": "Denim Depot",
+        "email": "info@denimdepot.com",
+        "password": "denimpass414",
+        "description": "Quality denim jeans and jackets.",
+        "photo": null,
+        "registered_date": "2024-08-17"
+    },
+    {
+        "name": "Silk & Satin",
+        "email": "contact@silkandsatin.com",
+        "password": "silkpass515",
+        "description": "Luxury silk and satin garments.",
+        "photo": null,
+        "registered_date": "2024-08-18"
+    },
+    {
+        "name": "Leather Lounge",
+        "email": "info@leatherlounge.com",
+        "password": "leatherpass616",
+        "description": "Premium leather jackets and accessories.",
+        "photo": null,
+        "registered_date": "2024-08-19"
+    },
+    {
+        "name": "Hipster Haven",
+        "email": "support@hipsterhaven.com",
+        "password": "hipsterpass717",
+        "description": "Trendy hipster clothing and accessories.",
+        "photo": null,
+        "registered_date": "2024-08-20"
+    },
+    {
+        "name": "Outerwear Outlet",
+        "email": "sales@outerwearoutlet.com",
+        "password": "outerwearpass818",
+        "description": "Coats, jackets, and outerwear for all seasons.",
+        "photo": null,
+        "registered_date": "2024-08-21"
+    },
+    {
+        "name": "Formal Fashions",
+        "email": "info@formalfashions.com",
+        "password": "formalpass919",
+        "description": "Sophisticated formal clothing.",
+        "photo": null,
+        "registered_date": "2024-08-22"
+    },
+    {
+        "name": "Winter Wardrobe",
+        "email": "contact@winterwardrobe.com",
+        "password": "winterpass020",
+        "description": "Warm and stylish winter clothing.",
+        "photo": null,
+        "registered_date": "2024-08-23"
+    },
+    {
+        "name": "Summer Styles",
+        "email": "info@summerstyles.com",
+        "password": "summerpass121",
+        "description": "Light and breezy summer fashion.",
+        "photo": null,
+        "registered_date": "2024-08-24"
+    },
+    {
+        "name": "Adventure Apparel",
+        "email": "support@adventureapparel.com",
+        "password": "adventurepass222",
+        "description": "Rugged clothing for outdoor adventures.",
+        "photo": null,
+        "registered_date": "2024-08-25"
+    }
+]

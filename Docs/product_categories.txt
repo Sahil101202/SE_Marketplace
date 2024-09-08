@@ -1,0 +1,28 @@
+* Men's Clothing:
+    T-shirts
+    Shirts
+    Pants
+    Jeans
+    Shorts
+    Jackets
+
+
+* Women's Clothing:
+    Tops
+    Dresses
+    Skirts
+    Pants
+    Jeans
+    Shorts
+    Jackets
+
+* Kids' Clothing:
+    Tops
+    Jackets
+    Pajamas
+
+
+* Footwear:
+    Men's Shoes
+    Women's Shoes
+    Kids' Shoes

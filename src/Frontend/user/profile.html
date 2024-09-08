@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniCloth / Profile</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="http://localhost:8080//css/style.css">
+    <link rel="stylesheet" href="http://localhost:8080/user/profile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="http://localhost:8080/js/update_navbar.js"></script>
+    <script src="http://localhost:8080/footer/loadFooter.js" defer></script>
+    <script src="http://localhost:8080/header/loadHeader.js" defer></script>
+    <script src="http://localhost:8080/header/header.js"></script>
+    <script defer src="https://app.fastbots.ai/embed.js" data-bot-id="clxuth1qo021knibdnr2q9yk0"></script>
+    <div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","de","it","am","gu"],"globe_color":"#fff","wrapper_selector":".gtranslate_wrapper","flag_size":16,"horizontal_position":"left","vertical_position":"bottom","globe_size":40}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script src="http://localhost:8080/theme.js"></script></head>
+<body>
+    <div id="header-container"></div>
+
+    <div class="container mx-auto py-10">
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex items-center space-x-4">
+                <img id="profileAvatar" src="default-avatar.png" alt="User Avatar" class="w-16 h-16 rounded-full">
+                <div>
+                    <h1 id="profileName" class="text-2xl font-semibold">Loading...</h1>
+                    <p id="profileRole" class="text-gray-600">Customer</p>
+                </div>
+            </div>
+            <div class="mt-6">
+                <h2 class="text-xl font-semibold mb-4">Profile Information</h2>
+                <table class="table-auto w-full">
+                    <tbody id="profileData" class="text-left text-gray-600">
+                        <tr>
+                            <td class="py-2">Name</td>
+                            <td class="py-2">:</td>
+                            <td class="py-2" id="profileNameData">Loading...</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">Email</td>
+                            <td class="py-2">:</td>
+                            <td class="py-2" id="profileEmail">Loading...</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">Gender</td>
+                            <td class="py-2">:</td>
+                            <td class="py-2" id="profileGender">Loading...</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">Contact</td>
+                            <td class="py-2">:</td>
+                            <td class="py-2" id="profileContact">Loading...</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button id="editProfile" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Edit Profile</button>
+            </div>
+        </div>
+
+        <!-- Edit Profile Form - Hidden by default -->
+        <div id="editProfileForm" class="hidden bg-white shadow-md rounded-lg p-6 mt-6">
+            <h2 class="text-xl font-semibold mb-4">Edit Profile</h2>
+            <form id="profileForm" class="space-y-4">
+                <div class="flex items-center">
+                    <label for="editName" class="w-1/4">Name:</label>
+                    <input type="text" id="editName" class="form-input w-3/4">
+                </div>
+                <div class="flex items-center">
+                    <label for="editEmail" class="w-1/4">Email:</label>
+                    <input type="email" id="editEmail" class="form-input w-3/4">
+                </div>
+                <div class="flex items-center">
+                    <label for="editGender" class="w-1/4">Gender:</label>
+                    <select id="editGender" class="form-select w-3/4">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="flex items-center">
+                    <label for="editContact" class="w-1/4">Contact:</label>
+                    <input type="tel" id="editContact" class="form-input w-3/4">
+                </div>
+                <div class="flex justify-end">
+                    <button type="button" id="cancelEdit" class="px-4 py-2 mr-2 bg-gray-400 text-white rounded">Cancel</button>
+                    <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded">Save</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-6 mt-6">
+            <h2 class="text-xl font-semibold mb-4">Order History</h2>
+            <table class="table-auto w-full">
+                <thead>
+                    <tr>
+                        <th class="px-4 py-2">Order ID</th>
+                        <th class="px-4 py-2">Date</th>
+                        <th class="px-4 py-2">Status</th>
+                        <th class="px-4 py-2">Total</th>
+                    </tr>
+                </thead>
+                <tbody id="orderHistory" class="text-left text-gray-600">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="profile.js"></script>
+
+    <footer></footer>
+    <script src="http://localhost:8080/header/uh.js"></script>
+
+</body>
+</html>

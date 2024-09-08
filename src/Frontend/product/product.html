@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniclothes / Product</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://localhost:8080/product/product.css">
+    <link rel="stylesheet" href="http://localhost:8080/product/product_list.css">
+    <script src="http://localhost:8080/footer/loadFooter.js" defer></script>
+    <script src="http://localhost:8080/header/loadHeader.js" defer></script>
+    <script src="http://localhost:8080/header/header.js"></script>
+    <script src="http://localhost:8080/header/search.js"></script>
+    <script src="http://localhost:8080/product/header.js"></script>
+    <!-- <script src="http://localhost:8080/product/list_product.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode@3.1.2/build/jwt-decode.min.js"></script>
+    <script src="http://localhost:8080/header/update_navbar.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://app.fastbots.ai/embed.js" data-bot-id="clxuth1qo021knibdnr2q9yk0"></script>
+    <div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","de","it","am","gu"],"globe_color":"#fff","wrapper_selector":".gtranslate_wrapper","flag_size":16,"horizontal_position":"left","vertical_position":"bottom","globe_size":40}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script src="http://localhost:8080/theme.js"></script>
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <div class="container mx-auto flex pt-0 ml-0">
+        <aside class="w-1/4 p-4 bg-white shadow-lg rounded-lg">
+            <h2 class="text-xl font-bold mb-4">Filters</h2>
+            <div>
+                <h3 class="text-lg font-bold mb-2">Categories</h3>
+                <ul class="space-y-2">
+                    <li class="relative">
+                        <button class="w-full flex justify-between items-center text-left hover:text-orange-500 category-button" data-category="all">
+                            All
+                        </button>
+                    </li>
+                    <li class="relative">
+                        <button class="w-full flex justify-between items-center text-left hover:text-orange-500 category-button" data-category="Men">
+                            Men<i class="fas fa-chevron-right arrow"></i>
+                        </button>
+                        <ul class="hidden pl-4">
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="men" data-subcategory="T-shirts">T-shirts</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="men" data-subcategory="Jeans">Jeans</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="men" data-subcategory="Jackets">Jackets</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="men" data-subcategory="Suits">Suits</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="men" data-subcategory="Sweaters">Sweaters</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="men" data-subcategory="Shorts">Shorts</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="men" data-subcategory="Polo Shirts">Polo Shirts</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="men" data-subcategory="Hoodies">Hoodies</button></li>
+                        </ul>
+                    </li>
+                    <li class="relative">
+                        <button class="w-full flex justify-between items-center text-left hover:text-orange-500 category-button" data-category="Women">
+                            Women <i class="fas fa-chevron-right arrow"></i>
+                        </button>
+                        <ul class="hidden pl-4">
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="women" data-subcategory="Dresses">Dresses</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="women" data-subcategory="Skirts">Skirts</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="women" data-subcategory="Trousers">Trousers</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="women" data-subcategory="Sweaters">Sweaters</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="women" data-subcategory="Jeans">Jeans</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="women" data-subcategory="Tops">Tops</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="women" data-subcategory="Cardigans">Cardigans</button></li>
+                        </ul>
+                    </li>
+                    <li class="relative">
+                        <button class="w-full flex justify-between items-center text-left hover:text-orange-500 category-button" data-category="Kids">
+                            Kids <i class="fas fa-chevron-right arrow"></i>
+                        </button>
+                        <ul class="hidden pl-4">
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="kids" data-subcategory="T-shirts">T-shirts</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="kids" data-subcategory="Shorts">Shorts</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="kids" data-subcategory="Jackets">Jackets</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="kids" data-subcategory="Dresses">Dresses</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="kids" data-subcategory="Pajamas">Pajamas</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="kids" data-subcategory="Sweaters">Sweaters</button></li>
+                            <li><button class="block px-4 py-2 hover:bg-gray-200 w-full text-left" data-category="kids" data-subcategory="Jeans">Jeans</button></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-4">
+                <h3 class="text-lg font-bold mb-2">Sort by</h3>
+                <select id="priceFilter" class="block w-full p-2 border border-gray-300 rounded">
+                    <option value="default">Default</option>
+                    <option value="price-low-high">Price: Low to High</option>
+                    <option value="price-high-low">Price: High to Low</option>
+                </select>
+            </div>
+        </aside>
+
+        <main class="w-3/4 p-4">
+            <div id="productGrid" class="grid grid-cols-3 gap-4">
+                <!-- Product cards will be generated here -->
+            </div>
+            <div class="mt-4 flex justify-center items-center space-x-2">
+                <button id="prevPage" class="px-4 py-2 bg-orange-500 text-black rounded-lg">Previous</button>
+                <div id="pagination" class="flex space-x-2"></div>
+                <button id="nextPage" class="px-4 py-2 bg-orange-500 text-black rounded-lg">Next</button>
+            </div>
+        </main>
+    </div>
+
+    <footer></footer>
+
+    <!-- <script src="http://localhost:8080/product/header.js"></script> -->
+    <script src="http://localhost:8080/header/uh.js"></script>
+</body>
+
+    
+</html>

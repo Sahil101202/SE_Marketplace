@@ -1,0 +1,169 @@
+/* header.css */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: gray; */
+    color: white;
+    border-bottom: 2px solid #4c4133;
+}
+
+#header .logo {
+    width: 12%;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+#search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    max-height: 10px;
+    color: black;
+}
+
+#search-bar input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(155, 155, 155);
+}
+
+#search-bar button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+}
+
+#navbar li a.active,
+#navbar li a:hover {
+    background-color: #c6ac8e;
+    border-radius: 5px;
+    bottom: -4px;
+    left: 20px;
+
+}
+
+#navbar li a.active::after{
+    content: "";
+    width : 30%;
+    height : 2px;
+    background : white;
+    position : absolute; 
+    bottom : -4px;
+    left: 20px;
+}
+
+
+#mobile {
+    display: none;
+}
+
+
+#logout-modal{
+    display: none;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.close-btn, .close-address-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #search-bar {
+        margin-top: 10px;
+    }
+
+    #navbar {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        border-top: 1px solid #444;
+    }
+
+    #navbar.active {
+        display: flex;
+    }
+
+    #navbar li {
+        margin: 10px 0;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #close {
+        display: none;
+    }
+
+    /* Hide navbar when closed */
+    #navbar:not(.active) {
+        display: none;
+    }
+}

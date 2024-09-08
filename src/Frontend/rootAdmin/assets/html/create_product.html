@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Product</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","de","it","am","gu"],"globe_color":"#fff","wrapper_selector":".gtranslate_wrapper","flag_size":16,"horizontal_position":"left","vertical_position":"bottom","globe_size":40}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script src="http://localhost:8080/theme.js"></script></head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold mb-4">Create Product</h1>
+        <div class="card p-4">
+            <form id="create-product-form">
+                <div class="mb-4">
+                    <label class="block text-gray-700">Product Name</label>
+                    <input type="text" id="product-name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700">Category</label>
+                    <input type="text" id="category" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700">Price</label>
+                    <input type="number" id="price" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700">Stock Quantity</label>
+                    <input type="number" id="stock-quantity" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                <button type="button" onclick="createProduct()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Create</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function createProduct() {
+            const productName = document.getElementById('product-name').value;
+            const category = document.getElementById('category').value;
+            const price = document.getElementById('price').value;
+            const stockQuantity = document.getElementById('stock-quantity').value;
+
+            console.log('Product Created:', { productName, category, price, stockQuantity });
+            alert('Product created successfully!');
+        }
+    </script>
+    <script src="http://localhost:8080/rootAdmin/assets/js/logout.js"></script>
+    <script src="http://localhost:8080/rootAdmin/assets/js/sidebar.js"></script>
+
+
+</body>
+</html>

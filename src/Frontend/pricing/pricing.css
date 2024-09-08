@@ -1,0 +1,12 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+button:focus {
+    outline: none;
+}
+
+button.active {
+    background-color: #2563eb;
+    color: white;
+}

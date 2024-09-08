@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="http://localhost:8080/admin/assets/css/sidebar.css" rel="stylesheet">
+    <link href="http://localhost:8080/admin/assets/css/pm.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","de","it","am","gu"],"globe_color":"#fff","wrapper_selector":".gtranslate_wrapper","flag_size":16,"horizontal_position":"left","vertical_position":"bottom","globe_size":40}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script src="http://localhost:8080/theme.js"></script></head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <div class="flex flex-col md:flex-row min-h-screen">
+        <!-- Sidebar -->
+        <div id="header-container"></div>
+
+        <div class="container mx-auto p-6">
+            <div class="text-center mb-6">
+                <h1 class="text-4xl font-bold text-gray-800">Pricing</h1>
+                <p class="text-gray-600">Choose the plan that’s right for you.</p>
+                <div class="mt-4">
+                    <input type="checkbox" id="toggle-plan" class="hidden">
+                    <label for="toggle-plan" id="monthly-button" class="bg-blue-500 text-white py-2 px-4 rounded-l cursor-pointer">Monthly</label>
+                    <label for="toggle-plan" id="yearly-button" class="bg-gray-300 text-gray-800 py-2 px-4 rounded-r cursor-pointer">Annually <span class="text-green-500">Save 20%</span></label>
+                </div>
+            </div>
+        
+            <div class="flex justify-center space-x-6">
+                <!-- Free Plan -->
+                <div id="free-plan" class="bg-white p-6 rounded-lg shadow-lg w-1/4 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <h2 class="text-2xl font-bold">Free</h2>
+                    <p class="text-gray-600 mt-2">Get started for free</p>
+                    <p class="text-4xl font-bold text-gray-800 mt-4">$0</p>
+                    <p class="text-gray-600">/ <span id="free-plan-duration">mo</span></p>
+                    <ul class="mt-6 space-y-2 text-left">
+                        <li>✔️ Up to 25 blocks</li>
+                        <li>✔️ Up to 3 editors</li>
+                        <li>✔️ Up to 2 dashboards</li>
+                        <li>✔️ 1 connection</li>
+                        <li>✔️ Unlimited viewers</li>
+                    </ul>
+                    <button class="subscribe-button mt-6 bg-blue-500 text-white py-2 px-4 rounded" data-plan-name="Free">Get Started</button>
+                </div>
+        
+                <!-- Pro Plan -->
+                <div id="pro-plan" class="bg-white p-6 rounded-lg shadow-lg w-1/4 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <h2 class="text-2xl font-bold">Pro</h2>
+                    <p class="text-gray-600 mt-2">Most popular plan</p>
+                    <p id="pro-plan-price" class="text-4xl font-bold text-gray-800 mt-4">$8</p>
+                    <p class="text-gray-600">/ <span id="pro-plan-duration">mo</span></p>
+                    <ul class="mt-6 space-y-2 text-left">
+                        <li>✔️ Unlimited blocks</li>
+                        <li>✔️ Unlimited editors</li>
+                        <li>✔️ Unlimited dashboards</li>
+                        <li>✔️ 50 alerts</li>
+                        <li>✔️ 30 day version history</li>
+                    </ul>
+                    <button class="subscribe-button mt-6 bg-blue-500 text-white py-2 px-4 rounded" data-plan-name="Pro">Get Started</button>
+                </div>
+        
+                <!-- Premier Plan -->
+                <div id="premier-plan" class="bg-white p-6 rounded-lg shadow-lg w-1/4 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <h2 class="text-2xl font-bold">Premier</h2>
+                    <p class="text-gray-600 mt-2">Advanced features</p>
+                    <p id="premier-plan-price" class="text-4xl font-bold text-gray-800 mt-4">$20</p>
+                    <p class="text-gray-600">/ <span id="premier-plan-duration">mo</span></p>
+                    <ul class="mt-6 space-y-2 text-left">
+                        <li>✔️ Advanced permissions</li>
+                        <li>✔️ Early access to features</li>
+                        <li>✔️ Unlimited alerts</li>
+                        <li>✔️ Unlimited version history</li>
+                    </ul>
+                    <button class="subscribe-button mt-6 bg-blue-500 text-white py-2 px-4 rounded" data-plan-name="Premier">Get Started</button>
+                </div>
+        
+                <!-- Enterprise Plan -->
+                <div id="enterprise-plan" class="bg-white p-6 rounded-lg shadow-lg w-1/4 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                    <h2 class="text-2xl font-bold">Enterprise</h2>
+                    <p class="text-gray-600 mt-2">Custom solution</p>
+                    <p class="text-4xl font-bold text-gray-800 mt-4">Custom</p>
+                    <ul class="mt-6 space-y-2 text-left">
+                        <li>✔️ Data catalog</li>
+                        <li>✔️ Audit logs</li>
+                        <li>✔️ SAML-based SSO</li>
+                        <li>✔️ Dedicated support</li>
+                    </ul>
+                    <button class="subscribe-button mt-6 bg-blue-500 text-white py-2 px-4 rounded" data-plan-name="Enterprise">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://localhost:8080/admin/assets/js/loadSidebar.js"></script>
+    <script src="http://localhost:8080/admin/assets/js/pm.js"></script>
+    <script src="http://localhost:8080/admin/assets/js/logout.js"></script>
+    <script src="http://localhost:8080/admin/assets/js/sidebar.js"></script>
+    <link rel="stylesheet" href="http://localhost:8080/pricing/pricing.css">
+    <script src="http://localhost:8080/pricing/pricing.js"></script>
+
+
+</body>
+
+</html>

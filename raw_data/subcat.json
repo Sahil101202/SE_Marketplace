@@ -1,0 +1,14 @@
+[
+    {
+        "main_category": "Men",
+        "subcategories": ["T-Shirts", "Jeans", "Jackets", "Suits", "Sweaters", "Shorts", "Polo Shirts", "Hoodies"]
+    },
+    {
+        "main_category": "Women",
+        "subcategories": ["Dresses", "Skirts", "Trousers", "Sweaters", "Jeans", "Tops", "Cardigans"]
+    },
+    {
+        "main_category": "Kids",
+        "subcategories": ["T-Shirts", "Shorts", "Jackets", "Dresses", "Pajamas", "Sweaters", "Jeans"]
+    }
+]

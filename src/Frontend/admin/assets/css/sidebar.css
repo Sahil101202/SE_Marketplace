@@ -1,0 +1,58 @@
+.sidebar {
+    background: #eae0d5;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 10px 10px #000000;
+}
+
+#header-container{
+    max-width: 20%;
+    height: auto;
+}
+
+.sidebar div:first-child img{
+    width: 40%;
+    height: auto;
+    margin: 40px;   
+    margin-bottom: 20px;
+}
+
+.sidebar div:first-child h2, .sidebar div:first-child p{
+    color: black;  
+}
+
+.sidebar a {
+    color: black;
+    margin-top: 50px;
+}
+
+.sidebar a:hover {
+    background: #c6ac8e;
+}
+
+.logout{
+    background-color: #c6ac8e;
+    color: black;
+}
+
+.logoutdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logout:hover{
+    background-color: rgb(224, 89, 89);
+}
+
+
+#logout-modal{
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+}

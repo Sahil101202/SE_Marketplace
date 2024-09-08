@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5E503F;
+    padding: 10px 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    max-width: 50%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0 20%; */
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li ul {
+    max-width:fit-content;
+    display: none;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    background-color: #5e503f;
+    padding: 0;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li:hover {
+    background-color: #c6ac8e;
+}
+
+nav ul li ul li:hover {
+    background-color: #c6ac8e;
+}
+
+nav ul li ul li, nav ul li {
+    width: 200px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-display {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.product-display img {
+    max-width: 100%;
+}
+
+.product-display .price {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-display .description {
+    font-size: 18px;
+    color: #555;
+}
+
+.display-area {
+    margin-top: 20px;
+}
+
+#display-text {
+    font-size: 24px;
+    color: #333;
+}
+
+
+/* General styles for the product list and items */
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
+.product .price {
+    color: #f00;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Styles for the Add to Cart button */
+.add-to-cart {
+    display: block;
+    margin: 10px auto 0 auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}

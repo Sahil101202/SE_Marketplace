@@ -1,0 +1,37 @@
+/* search.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#search-results {
+    margin-top: 20px;
+}
+
+#search-results .product {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#search-results .product h3 {
+    margin: 0;
+}
+
+/* Additional styling for better layout */
+.product {
+    margin-bottom: 20px;
+}
+
+.product p {
+    margin: 5px 0;
+}

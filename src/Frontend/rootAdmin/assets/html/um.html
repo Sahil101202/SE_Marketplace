@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="http://localhost:8080/rootAdmin/assets/css/sidebar.css" rel="stylesheet">
+    <link href="http://localhost:8080/rootAdmin/assets/css/um.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","de","it","am","gu"],"globe_color":"#fff","wrapper_selector":".gtranslate_wrapper","flag_size":16,"horizontal_position":"left","vertical_position":"bottom","globe_size":40}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script src="http://localhost:8080/theme.js"></script>
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <div class="flex flex-col md:flex-row min-h-screen">
+        <!-- Sidebar -->
+        <div id="header-container"></div>
+
+        <!-- Main Content -->
+        <div class="w-full md:w-3/4 p-6">
+            <h1 class="text-3xl font-bold mb-4">User Management</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div class="card border-t-custom border-blue-400">
+                    <p class="text-gray-600">Total Users</p>
+                    <p class="text-2xl font-bold" id="total-users">Loading...</p>
+                </div>
+                <div class="card border-t-custom border-yellow-400">
+                    <p class="text-gray-600">Male Users</p>
+                    <p class="text-2xl font-bold" id="male-users">Loading...</p>
+                </div>
+                <div class="card border-t-custom border-red-400">
+                    <p class="text-gray-600">Female Users</p>
+                    <p class="text-2xl font-bold" id="female-users">Loading...</p>
+                </div>
+                <div class="card border-t-custom border-green-400">
+                    <p class="text-gray-600">Active Users</p>
+                    <p class="text-2xl font-bold" id="active-users">Loading...</p>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <h2 class="text-2xl font-bold mb-4">All Users</h2>
+                <div class="user-list max-h-96 overflow-y-auto">
+                    <table class="min-w-full bg-white">
+                        <thead class="bg-gray-200">
+                            <tr>
+                                <th class="py-2 px-4 border-b">ID</th>
+                                <th class="py-2 px-4 border-b">Name</th>
+                                <th class="py-2 px-4 border-b">Email</th>
+                                <th class="py-2 px-4 border-b">Gender</th>
+                                <th class="py-2 px-4 border-b">Phone</th>
+                            </tr>
+                        </thead>
+                        <tbody id="user-table-body">
+                            <!-- Users will be dynamically inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://localhost:8080/rootAdmin/assets/js/loadSidebar.js"></script>
+    <script src="http://localhost:8080/rootAdmin/assets/js/um.js"></script>
+    <script src="http://localhost:8080/rootAdmin/assets/js/logout.js"></script>
+    <script src="http://localhost:8080/rootAdmin/assets/js/sidebar.js"></script>
+
+
+</body>
+
+</html>
