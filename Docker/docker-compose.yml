@@ -13,6 +13,11 @@ services:
       - "3306:3306"
     volumes:
       - ../Data:/var/lib/mysql
+    command:
+      --max_allowed_packet=64M
+      --wait_timeout=28800
+    networks:
+      - se-network
 
   phpmyadmin:
     image: phpmyadmin:latest
@@ -24,6 +29,8 @@ services:
       - "8081:80"
     depends_on:
       - database
+    networks:
+      - se-network
 
   flask:
     build:
@@ -39,6 +46,8 @@ services:
     command: ['flask', 'run', '--host=0.0.0.0', '--debug' ]
     depends_on:
       - database
+    networks:
+      - se-network
 
   nginx:
     image: nginx:latest
@@ -50,3 +59,9 @@ services:
       - 8080:80
     depends_on:
       - flask
+    networks:
+      - se-network
+
+networks:
+  se-network:
+    driver: bridge

@@ -69,11 +69,11 @@
 
             <div class="grid grid-cols-1 gap-4 mb-4">
                 <div class="card">
-                    <h2 class="text-2xl font-bold mb-4">CRUD Operations</h2>
+                    <h2 class="text-2xl font-bold mb-4">Notify</h2>
                     <div class="flex space-x-4">
-                        <button onclick="showForm('create')" class="crud-btn bg-green-500 hover:bg-green-700">Create Promotion</button>
+                        <!-- <button onclick="showForm('create')" class="crud-btn bg-green-500 hover:bg-green-700">Create Promotion</button>
                         <button onclick="showForm('update')" class="crud-btn bg-yellow-500 hover:bg-yellow-700">Update Promotion</button>
-                        <button onclick="showForm('delete')" class="crud-btn bg-red-500 hover:bg-red-700">Delete Promotion</button>
+                        <button onclick="showForm('delete')" class="crud-btn bg-red-500 hover:bg-red-700">Delete Promotion</button> -->
                         <button onclick="showForm('send-email')" class="crud-btn bg-blue-500 hover:bg-blue-700">Send Promotion Email</button>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                 <h1 class="text-3xl font-bold mb-4" id="crud-form-title"></h1>
                 <div class="card p-4">
                     <form id="crud-form">
-                        <!-- Create Form -->
+                        <!-- Create Form
                         <div id="create-form" class="hidden">
                             <div class="mb-4">
                                 <label class="block text-gray-700">Promotion Name</label>
@@ -108,15 +108,15 @@
                                 <input type="date" id="create-end-date" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
                             </div>
                             <button type="button" onclick="createPromotion()" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Create</button>
-                        </div>
+                        </div> -->
                         <!-- Read Form -->
-                        <div id="read-form" class="hidden">
+                        <!-- <div id="read-form" class="hidden">
                             <div id="product-list" class="overflow-auto h-64">
-                                <!-- Product list will be populated here -->
+                               
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Update Form -->
-                        <div id="update-form" class="hidden">
+                        <!-- <div id="update-form" class="hidden">
                             <div class="mb-4">
                                 <label class="block text-gray-700">Promotion Name</label>
                                 <input type="text" id="update-promo-name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
@@ -138,15 +138,15 @@
                                 <input type="date" id="update-end-date" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
                             </div>
                             <button type="button" onclick="updatePromotion()" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">Update</button>
-                        </div>
+                        </div> -->
                         <!-- Delete Form -->
-                        <div id="delete-form" class="hidden">
+                        <!-- <div id="delete-form" class="hidden">
                             <div class="mb-4">
                                 <label class="block text-gray-700">Promotion Name</label>
                                 <input type="text" id="update-promo-name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
                             </div>
                             <button type="button" onclick="deletePromotion()" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete</button>
-                        </div>
+                        </div> -->
                         <!-- Send Email Form -->
                         <!-- Send Email Form -->
                         <div id="send-email-form" class="hidden">

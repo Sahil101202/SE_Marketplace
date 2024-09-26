@@ -194,7 +194,7 @@ async function fetchData() {
         data.cat.forEach(category => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td class="py-2 px-4 border-b ">${category.name}</td>
+                <td class="py-2 px-4 border-b ">${category[1]}</td>
             `;
             userTableBody.appendChild(row);
         });

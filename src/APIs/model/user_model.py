@@ -438,3 +438,26 @@ class user_model:
         addresses = self.cur.fetchall()
 
         return make_response({'response': True, 'message': 'Emails retrieved successfully', 'data': addresses}, 200)
+    
+
+
+    def seller_pricing(self, seller_id, data):
+        if not self.cur:
+            return make_response({'response': False, 'message': 'Database connection not established'}, 500)
+
+        plan = data['plan']
+
+        try:
+            # Use parameterized queries to avoid SQL injection and errors
+            sql = "UPDATE sellers SET subscription_plan = %s WHERE id = %s"
+            self.cur.execute(sql, (plan, seller_id))
+            self.con.commit()  # Commit the transaction
+
+            if self.cur.rowcount > 0:
+                return make_response({'response': True, 'message': f'Plan updated successfully  to {plan}'}, 200)
+            else:
+                return make_response({'response': False, 'message': f'Plan updated successfully to {plan}'}, 404)
+        except Exception as e:
+            # Log or return the exception for debugging
+            return make_response({'response': False, 'message': str(e)}, 500)
+

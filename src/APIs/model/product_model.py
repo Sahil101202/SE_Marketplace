@@ -6,6 +6,7 @@ from config.config import db_config  # Ensure this file and variable are correct
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime, timedelta
 import base64
+import jwt
 
 
 class product_model:
@@ -33,24 +34,41 @@ class product_model:
 
         try:
             # Decode the base64 image
-            image_data = base64.b64decode(data['product_image'])
-            # Prepare the SQL statement
+            # image_data = base64.b64decode(data['product_image'])
+            
+            token = data['token']
+
+            # Debug: Log decoded token
+            print(f"Decoded Token: {token}")
+
+            decoded_token = jwt.decode(token, 'sahil101202', algorithms=["HS256"])
+            user_id = decoded_token['id']
+
+            # Debug: Log user_id
+            print(f"User ID: {user_id}")
+
             sql = """
-            INSERT INTO product_item (name, product_image, product_id, quantity, price) 
-            VALUES (%s, %s, %s, %s, %s)
+            INSERT INTO `product_item` (`id`, `product_id`, `name`, `quantity`, `price`, `seller_id`, `description`) 
+            VALUES (NULL, %s, %s, %s, %s, %s, %s)
             """
+            
             # Execute the SQL statement with parameters
-            self.cur.execute(sql, (data['name'], image_data, data['category_id'], data['quantity'], data['price']))
-            # self.conn.commit()
+            self.cur.execute(sql, (data['category_id'], data['name'], data['quantity'], data['price'], user_id, data['description']))
+            
+            # Commit the transaction
+            self.con.commit()
 
             if self.cur.rowcount > 0:
                 product_id = self.cur.lastrowid
                 return make_response({'response': True, 'message': 'Product added successfully', 'product_id': product_id}, 201)
             else:
                 return make_response({'response': False, 'message': 'Failed to add product'}, 500)
+
         except Exception as e:
-            # self.conn.rollback()
+            # Debug: Print/log the error
+            print(f"Error: {str(e)}")
             return make_response({'response': False, 'message': str(e)}, 500)
+
 
 
     def read_all_products(self):
@@ -82,6 +100,40 @@ class product_model:
         except Error as e:
             print(f"Error reading products: {e}")
             return make_response({'response': False, 'message': 'Error reading products'}, 500)
+        
+
+    def read_all_products_seller(self, seller_id):
+        if not self.cur:
+            return make_response({'response': False, 'message': 'Database connection not established'}, 500)
+        
+        try:
+            sql = f'''SELECT 
+                    pi.id AS item_id, 
+                    pi.name AS item_name, 
+                    pi.price, 
+                    p.name AS subcategory, 
+                    c.category_name AS category,
+                    p.id as category_id
+                FROM 
+                    `product_item` pi 
+                JOIN 
+                    `product` p ON p.id = pi.product_id 
+                JOIN 
+                    `product_category` c ON c.id = p.category_id
+                WHERE pi.seller_id= {seller_id}
+                '''
+            self.cur.execute(sql)
+            result = self.cur.fetchall()
+
+            if result:
+                return make_response({'response': True, 'message': 'Products fetched successfully', 'data': result}, 200)
+            else:
+                return make_response({'response': False, 'message': 'No products found'}, 404)
+        except Error as e:
+            print(f"Error reading products: {e}")
+            return make_response({'response': False, 'message': 'Error reading products'}, 500)
+        
+
 
     def get_product_image(self, product_id):
         if not self.cur:

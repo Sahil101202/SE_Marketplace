@@ -7,6 +7,8 @@ db_config = {
     'user': 'sahil',
     'password': '101202',
     'database': 'software_engineering',
+    'connection_timeout': 800,
+    'use_pure': True
 }
 
 conn = mysql.connector.connect(**db_config)

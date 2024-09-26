@@ -34,6 +34,8 @@ myForm.addEventListener('submit', async event =>{
                 localStorage.setItem("authToken", token);
                 window.location.href = "http://localhost:8080/";
                 alert(json.message);
+            }else{
+                alert(json.message);
             }
         }
     }

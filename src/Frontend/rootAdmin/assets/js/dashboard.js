@@ -21,8 +21,8 @@ const fetchProductsCount = async (sampleData) => {
         const response = await fetch(url);
         const json = await response.json();
         if (json.response) {
-            console.log(json.data[0].num);
-            sampleData.product = json.data[0].num;
+            console.log("product count", json.data[0][0]);
+            sampleData.product = json.data[0][0];
         } else {
             console.error(json.message);
         }
@@ -113,25 +113,6 @@ const fetchPromosExpired = async (sampleData) => {
     }
 };
 
-const fetchConversion = async (sampleData) => {
-    try {
-        let url = `http://localhost:5001/users/conversion`;
-        const response = await fetch(url);
-        const json = await response.json();
-        if (json.response) {
-            console.log('data :', json.data[0].totalUser , json.data[0].orderUser);
-            sampleData.conversion = ( json.data[0].orderUser / json.data[0].totalUsers ) * 100;
-            if (isNaN(sampleData.conversion)){
-                sampleData.conversion = 0;
-            }
-        } else {
-            console.error(json.message);
-        }
-    } catch (error) {
-        console.error('Error fetching products:', error);
-    }
-};
-
 const fetchCategoies = async (sampleData) => {
     try {
         let url = `http://localhost:5001/categories`;
@@ -179,13 +160,11 @@ async function fetchData() {
         await fetchPromosCount(data);
         await fetchPromosActive(data);
         await fetchPromosExpired(data);
-        await fetchConversion(data);
         await fetchCategoies(data);
         await fetchRecentOrder(data);
         
         // Update UI with fetched data
         document.getElementById('user').innerText = data.user;
-        document.getElementById('conversion').innerText = `${data.conversion}%`;
         document.getElementById('activePromotion').innerText = data.activePromotion;
         document.getElementById('expiredPromotion').innerText = data.expiredPromotion;
         document.getElementById('product').innerText = data.product;
@@ -201,7 +180,7 @@ async function fetchData() {
         data.cat.forEach(category => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td class="py-2 px-4 border-b ">${category.name}</td>
+                <td class="py-2 px-4 border-b ">${category[1]}</td>
             `;
             userTableBody.appendChild(row);
         });

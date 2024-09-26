@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const category = document.getElementById('category').value;
         const price = document.getElementById('price').value;
         const stockQuantity = document.getElementById('stock-quantity').value;
+        const description = document.getElementById('des').value;
         const productImage = document.getElementById('product-image').files[0]; // Get the file input
 
         const reader = new FileReader();
@@ -39,12 +40,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const base64Image = reader.result.split(',')[1]; // Get the base64 part
 
             const product = {
+                token: localStorage.getItem('seller'),
                 name: productName,
                 category_id: category,
                 price: price,
                 quantity: stockQuantity,
+                description: description,
                 product_image: base64Image // Include the base64 image string
             };
+
+            console.log('product create', product);
 
             fetch('http://localhost:5001/products/add', {
                 method: 'POST',
@@ -55,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .then(response => response.json())
             .then(data => {
-                alert('Product created successfully!');
+                alert(data.message);
                 hideForm();
             })
             .catch(error => console.error('Error:', error));
@@ -185,7 +190,7 @@ let sampleData = {
 
 const fetchAllProduct = async (sampleData) => {
     try {
-        let url = `http://localhost:5001/products/fetchAll`;
+        let url = `http://localhost:5001/products/seller/${sellerId}`;
         const response = await fetch(url);
         const json = await response.json();
         if (json.response) {
@@ -217,7 +222,7 @@ const fetchProductsCount = async (sampleData) => {
 
 const fetchCategoies = async (sampleData) => {
     try {
-        let url = `http://localhost:5001/categories/${sellerId}`;
+        let url = `http://localhost:5001/categories`;
         const response = await fetch(url);
         const json = await response.json();
         if (json.response) {
@@ -295,21 +300,21 @@ const fetchAvgPrice = async (sampleData) => {
     }
 };
 
-const fetchTotalSales = async (sampleData) => {
-    try {
-        let url = `http://localhost:5001/orders/total_order/${sellerId}`;
-        const response = await fetch(url);
-        const json = await response.json();
-        if (json.response) {
-            console.log("total order count",json.data[0][0]);
-            sampleData.totalSales = json.data[0][0];
-        } else {
-            console.error(json.message);
-        }
-    } catch (error) {
-        console.error('Error fetching products:', error);
-    }
-};
+// const fetchTotalSales = async (sampleData) => {
+//     try {
+//         let url = `http://localhost:5001/orders/total_order/${sellerId}`;
+//         const response = await fetch(url);
+//         const json = await response.json();
+//         if (json.response) {
+//             console.log("total order count",json.data[0][0]);
+//             sampleData.totalSales = json.data[0][0];
+//         } else {
+//             console.error(json.message);
+//         }
+//     } catch (error) {
+//         console.error('Error fetching products:', error);
+//     }
+// };
 
 // Function to fetch data (simulated with sampleData for testing)
 async function fetchData() {
@@ -321,7 +326,7 @@ async function fetchData() {
         await fetchAvgPrice(data);
         await fetchMaxPrice(data);
         await fetchMinPrice(data);
-        await fetchTotalSales(data);
+        // await fetchTotalSales(data);
         await fetchAllProduct(data);
         await fetchCategoies(data);
         console.log(data);
@@ -331,15 +336,15 @@ async function fetchData() {
         document.getElementById('min-price').innerText = `$${data.MinPrice.toFixed(2)}`;
         document.getElementById('categories').innerText = data.categories;
         document.getElementById('average-price').innerText = `$${data.averagePrice.toFixed(2)}`;
-        document.getElementById('total-sales').innerText = data.totalSales;
+        // document.getElementById('total-sales').innerText = data.totalSales;
 
         // Populate user list
         const userTableBody = document.getElementById('cat-table-body');
         data.cat.forEach(category => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td class="py-2 px-4 border-b ">${category.id}</td>
-                <td class="py-2 px-4 border-b ">${category.name}</td>
+                <td class="py-2 px-4 border-b ">${category[0]}</td>
+                <td class="py-2 px-4 border-b ">${category[1]}</td>
             `;
             userTableBody.appendChild(row);
         });
@@ -350,11 +355,11 @@ async function fetchData() {
             console.log("product", product);
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td class="py-2 px-4 border-b">${product.id}</td>
-                <td class="py-2 px-4 border-b">${product.category}</td>
-                <td class="py-2 px-4 border-b">${product.item}</td>
-                <td class="py-2 px-4 border-b">${product.price}</td>
-                <td class="py-2 px-4 border-b">${product.quantity}</td>
+                <td class="py-2 px-4 border-b">${product[0]}</td>
+                <td class="py-2 px-4 border-b">${product[1]}</td>
+                <td class="py-2 px-4 border-b">${product[2]}</td>
+                <td class="py-2 px-4 border-b">${product[3]}</td>
+                <td class="py-2 px-4 border-b">${product[4]}</td>
             `;
             productTableBody.appendChild(row);
         });

@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const paginatedProducts = products.slice(startIndex, endIndex);
 
         productGrid.innerHTML = '';
-        if (paginatedProducts.length === 0) {
+        if (paginatedProducts.length == 0) {
             productGrid.innerHTML = '<p class="text-center text-gray-600">No products found.</p>';
         } else {
             for (const product of paginatedProducts) {

@@ -34,6 +34,9 @@ myForm.addEventListener('submit', async event =>{
         if (json.response){
             alert(json.message);
         }
+        else{
+            alert(json.message);
+        }
     }
 
     // .then(response => {

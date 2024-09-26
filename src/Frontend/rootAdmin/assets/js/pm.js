@@ -245,7 +245,7 @@ const fetchMaxPrice = async (sampleData) => {
         const json = await response.json();
         if (json.response) {
             console.log(json.data[0].num);
-            sampleData.MaxPrice = json.data[0].num;
+            sampleData.MaxPrice = json.data[0][0];
         } else {
             console.error(json.message);
         }
@@ -261,7 +261,7 @@ const fetchMinPrice = async (sampleData) => {
         const json = await response.json();
         if (json.response) {
             console.log(json.data[0].num);
-            sampleData.MinPrice = json.data[0].num;
+            sampleData.MinPrice = json.data[0][0];
         } else {
             console.error(json.message);
         }
@@ -276,8 +276,8 @@ const fetchAvgPrice = async (sampleData) => {
         const response = await fetch(url);
         const json = await response.json();
         if (json.response) {
-            console.log(json.data[0].num);
-            sampleData.averagePrice = json.data[0].num;
+            console.log(json.data[0]);
+            sampleData.averagePrice = json.data[0][0];
         } else {
             console.error(json.message);
         }
@@ -318,20 +318,21 @@ async function fetchData() {
         console.log(data);
         console.log(data);
         // Update UI with fetched data
-        document.getElementById('total-products').innerText = data.totalProducts;
-        document.getElementById('max-price').innerText = `$${data.MaxPrice.toFixed(2)}`;
-        document.getElementById('min-price').innerText = `$${data.MinPrice.toFixed(2)}`;
-        document.getElementById('categories').innerText = data.categories;
-        document.getElementById('average-price').innerText = `$${data.averagePrice.toFixed(2)}`;
+        document.getElementById('total-products').innerText = data.products.length;
+        document.getElementById('max-price').innerText = `$${data.MaxPrice}`;
+        document.getElementById('min-price').innerText = `$${data.MinPrice}`;
+        document.getElementById('categories').innerText = data.cat.length;
+        document.getElementById('average-price').innerText = `$${data.averagePrice}`;
         document.getElementById('total-sales').innerText = data.totalSales;
 
         // Populate user list
         const userTableBody = document.getElementById('cat-table-body');
         data.cat.forEach(category => {
             const row = document.createElement('tr');
+
             row.innerHTML = `
-                <td class="py-2 px-4 border-b ">${category.id}</td>
-                <td class="py-2 px-4 border-b ">${category.name}</td>
+                <td class="py-2 px-4 border-b ">${category[0]}</td>
+                <td class="py-2 px-4 border-b ">${category[1]}</td>
             `;
             userTableBody.appendChild(row);
         });
@@ -341,11 +342,11 @@ async function fetchData() {
         data.products.forEach(product => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td class="py-2 px-4 border-b">${product.id}</td>
-                <td class="py-2 px-4 border-b">${product.category}</td>
-                <td class="py-2 px-4 border-b">${product.item}</td>
-                <td class="py-2 px-4 border-b">${product.price}</td>
-                <td class="py-2 px-4 border-b">${product.quantity}</td>
+                <td class="py-2 px-4 border-b">${product[0]}</td>
+                <td class="py-2 px-4 border-b">${product[1]}</td>
+                <td class="py-2 px-4 border-b">${product[3]}</td>
+                <td class="py-2 px-4 border-b">${product[2]}</td>
+                <td class="py-2 px-4 border-b">${product[4]}</td>
             `;
             productTableBody.appendChild(row);
         });

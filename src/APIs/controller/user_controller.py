@@ -127,3 +127,8 @@ def seller_data_controller():
 # @auth.token_auth()
 def seller_count_controller():
     return user.seller_count()
+
+@user_blueprint.route('/seller/pricing/<seller_id>', methods=['POST'])
+# @auth.token_auth()
+def seller_pricing_controller(seller_id):
+    return user.seller_pricing(seller_id, request.json)

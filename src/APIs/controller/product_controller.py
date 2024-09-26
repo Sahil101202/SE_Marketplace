@@ -12,6 +12,11 @@ auth = auth()
 def read_all_products_controller():
     return product.read_all_products()
 
+
+@product_blueprint.route('/products/seller/<seller_id>', methods=['GET'])
+def read_all_products_seller_controller(seller_id):
+    return product.read_all_products_seller(seller_id)
+
 # Route to get details of a specific product by its ID
 @product_blueprint.route('/products/<int:product_id>', methods=['GET'])
 def product_detail_controller(product_id):
